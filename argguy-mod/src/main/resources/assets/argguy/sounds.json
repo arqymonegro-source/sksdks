@@ -1,0 +1,136 @@
+{
+  "entity.argguy.step": {
+    "subtitle": "subtitles.argguy.step",
+    "sounds": [
+      "argguy:step_a",
+      "argguy:step_b",
+      "argguy:step_c"
+    ]
+  },
+  "entity.argguy.step_run": {
+    "subtitle": "subtitles.argguy.step_run",
+    "sounds": [
+      "argguy:step_run_a",
+      "argguy:step_run_b"
+    ]
+  },
+  "entity.argguy.breath_slow": {
+    "subtitle": "subtitles.argguy.breath_slow",
+    "sounds": [
+      "argguy:breath_slow_a",
+      "argguy:breath_slow_b"
+    ]
+  },
+  "entity.argguy.breath_heavy": {
+    "subtitle": "subtitles.argguy.breath_heavy",
+    "sounds": [
+      "argguy:breath_heavy_a",
+      "argguy:breath_heavy_b"
+    ]
+  },
+  "entity.argguy.breath_pant": {
+    "subtitle": "subtitles.argguy.breath_pant",
+    "sounds": [
+      "argguy:breath_pant"
+    ]
+  },
+  "entity.argguy.whistle": {
+    "subtitle": "subtitles.argguy.whistle",
+    "sounds": [
+      "argguy:whistle"
+    ]
+  },
+  "entity.argguy.chime": {
+    "subtitle": "subtitles.argguy.chime",
+    "sounds": [
+      "argguy:windchime",
+      "argguy:umbrella_chime"
+    ]
+  },
+  "entity.argguy.drone": {
+    "subtitle": "subtitles.argguy.drone",
+    "sounds": [
+      "argguy:dread_drone"
+    ]
+  },
+  "entity.argguy.connection_lost": {
+    "subtitle": "subtitles.argguy.connection_lost",
+    "sounds": [
+      "argguy:connection_lost"
+    ]
+  },
+  "entity.argguy.voice_banging": {
+    "subtitle": "subtitles.argguy.voice_banging",
+    "sounds": [
+      "argguy:voice_banging"
+    ]
+  },
+  "entity.argguy.capture": {
+    "subtitle": "subtitles.argguy.capture",
+    "sounds": [
+      "argguy:capture"
+    ]
+  },
+  "entity.argguy.crack": {
+    "subtitle": "subtitles.argguy.crack",
+    "sounds": [
+      "argguy:crack_a",
+      "argguy:crack_b"
+    ]
+  },
+  "entity.argguy.chuckle": {
+    "subtitle": "subtitles.argguy.chuckle",
+    "sounds": [
+      "argguy:chuckle"
+    ]
+  },
+  "entity.argguy.shriek": {
+    "subtitle": "subtitles.argguy.shriek",
+    "sounds": [
+      "argguy:stalk_shriek",
+      "argguy:run_screech"
+    ]
+  },
+  "entity.argguy.heartbeat": {
+    "subtitle": "subtitles.argguy.heartbeat",
+    "sounds": [
+      "argguy:heartbeat"
+    ]
+  },
+  "entity.argguy.tinnitus": {
+    "subtitle": "subtitles.argguy.tinnitus",
+    "sounds": [
+      "argguy:tinnitus"
+    ]
+  },
+  "entity.argguy.sting": {
+    "subtitle": "subtitles.argguy.sting",
+    "sounds": [
+      "argguy:noticed_sting"
+    ]
+  },
+  "entity.argguy.whisper": {
+    "subtitle": "subtitles.argguy.whisper",
+    "sounds": [
+      "argguy:idle_whisper"
+    ]
+  },
+  "entity.argguy.knock": {
+    "subtitle": "subtitles.argguy.knock",
+    "sounds": [
+      "argguy:knock"
+    ]
+  },
+  "entity.argguy.radio": {
+    "subtitle": "subtitles.argguy.radio",
+    "sounds": [
+      "argguy:radio"
+    ]
+  },
+  "entity.argguy.crackle": {
+    "subtitle": "subtitles.argguy.crackle",
+    "sounds": [
+      "argguy:reality_crackle"
+    ]
+  }
+}

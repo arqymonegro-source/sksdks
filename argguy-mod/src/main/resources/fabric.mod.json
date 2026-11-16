@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "argguy",
+  "version": "${version}",
+  "name": "ARGGUY",
+  "description": "An ARG horror mod. The entity from the YouTube ARG, in your world.",
+  "authors": [
+    "TODO: your name"
+  ],
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.argguy.ArgGuyMod"
+    ],
+    "client": [
+      "com.argguy.client.ArgGuyClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": "~26.1",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
