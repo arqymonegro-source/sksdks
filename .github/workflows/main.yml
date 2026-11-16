@@ -23,13 +23,12 @@ jobs:
           cache: gradle
 
       - name: Build mod
-        working-directory: ./argguy
+        working-directory: ./argguy-mod
         run: gradle build --no-daemon
 
       - name: Upload compiled JAR
         uses: actions/upload-artifact@v4
         with:
           name: ARGGUY-JAR
-          path: 'argguy/**/build/libs/*.jar'
+          path: 'argguy-mod/**/build/libs/*.jar'
           if-no-files-found: error
-
