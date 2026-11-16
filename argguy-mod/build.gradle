@@ -1,5 +1,3 @@
-// TODO: if this does not resolve, copy build.gradle from coolaliens and only change the mod id / names.
-// Minecraft 26.1 is unobfuscated: no mappings line, and plain `implementation` instead of `modImplementation`.
 plugins {
     id 'net.fabricmc.fabric-loom' version '1.16.3'
     id 'maven-publish'
@@ -12,17 +10,19 @@ base {
     archivesName = project.archives_base_name
 }
 
-repositories {
-}
-
 loom {
     splitEnvironmentSourceSets()
+
     mods {
         "argguy" {
             sourceSet sourceSets.main
             sourceSet sourceSets.client
         }
     }
+}
+
+repositories {
+    mavenCentral()
 }
 
 dependencies {
@@ -33,17 +33,18 @@ dependencies {
 
 processResources {
     inputs.property "version", project.version
-    filesMatching("fabric.mod.json") {
-        expand "version": inputs.properties.version
-    }
-}
 
-tasks.withType(JavaCompile).configureEach {
-    it.options.release = 25
+    filesMatching("fabric.mod.json") {
+        expand "version": project.version
+    }
 }
 
 java {
     withSourcesJar()
     sourceCompatibility = JavaVersion.VERSION_25
     targetCompatibility = JavaVersion.VERSION_25
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.release = 25
 }
